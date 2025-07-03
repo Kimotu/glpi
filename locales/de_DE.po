@@ -34,6 +34,7 @@
 # Megachip <www.transifex.com@megskywalker.de>, 2025
 # Roy Brannath, 2025
 # alexandre delaunay <delaunay.alexandre@gmail.com>, 2025
+# FloToHu, 2025
 # 
 #, fuzzy
 msgid ""
@@ -314,7 +315,7 @@ msgstr "Vorname"
 #: src/Rack.php:300 src/Contract.php:736 src/PassiveDCEquipment.php:235
 #: src/Budget.php:249
 msgid "Template name"
-msgstr "Vorlage Name"
+msgstr "Vorlagenname"
 
 #: templates/generic_show_form.html.twig src/Database.php:428
 #: src/DatabaseInstance.php:217
@@ -1189,7 +1190,7 @@ msgstr "Startseite"
 
 #: templates/layout/parts/objectlock_message.html.twig
 msgid "Read-only mode"
-msgstr "Schreib-Schutz Modus"
+msgstr "Schreibschutz Modus"
 
 #: templates/layout/parts/objectlock_message.html.twig
 #: templates/components/notepad/form.html.twig
@@ -1273,7 +1274,7 @@ msgstr "Formulare importieren"
 
 #: templates/layout/parts/user_header.html.twig
 msgid "User menu"
-msgstr "Benutzer Menü"
+msgstr "Benutzermenü"
 
 #: templates/layout/parts/user_header.html.twig
 msgid "Change mode"
@@ -1355,7 +1356,7 @@ msgstr "Menü suchen"
 
 #: templates/layout/parts/page_footer.html.twig
 msgid "Back to top of the page"
-msgstr "Zurück Seitenbegin"
+msgstr "Zurück zum Seitenbegin"
 
 #: templates/layout/parts/page_footer.html.twig
 msgid "Top of the page"
@@ -1519,11 +1520,11 @@ msgstr "Versenden"
 
 #: templates/components/pager.html.twig
 msgid "Rows per page"
-msgstr ""
+msgstr "Zeilen pro Seite"
 
 #: templates/components/pager.html.twig
 msgid "rows / page"
-msgstr "Anzahl Linien pro Seite"
+msgstr "Zeilen / Seite"
 
 #: templates/components/pager.html.twig
 #, php-format
@@ -1778,7 +1779,7 @@ msgstr "Hinzufügen"
 
 #: templates/components/search/displaypreference_config.html.twig
 msgid "Select an option to add"
-msgstr ""
+msgstr "Wählen Sie eine Option zum Zufügen"
 
 #: templates/components/search/displaypreference_config.html.twig
 msgid "Delete personal view"
@@ -1904,13 +1905,12 @@ msgstr "Art des Eintrags"
 #: templates/components/search/table.html.twig
 #: templates/components/search/display_data.html.twig
 msgid "An error occurred during the search"
-msgstr ""
+msgstr "Während der Suche trat ein Fehler auf"
 
 #: templates/components/search/table.html.twig
 #: templates/components/search/display_data.html.twig
-msgid ""
-"Consider changing the search criteria or adjusting the displayed columns."
-msgstr ""
+msgid "Consider changing the search criteria or adjusting the displayed columns."
+msgstr "Erwägen Sie, die Suchkriterien zu ändern oder die angezeigten Spalten anzupassen."
 
 #: templates/components/search/table.html.twig
 #: templates/components/search/displaypreference_list.html.twig
@@ -1929,7 +1929,7 @@ msgstr ""
 #: src/Item_SoftwareVersion.php:881 src/Item_SoftwareVersion.php:1216
 #: src/Item_SoftwareVersion.php:1350 js/modules/Form/GeolocationField.js:87
 msgid "No results found"
-msgstr ""
+msgstr "Keine Ergebnisse gefunden"
 
 #: templates/components/search/table.html.twig
 #: templates/components/datatable.html.twig
@@ -1944,7 +1944,7 @@ msgstr "Regel löschen"
 #: templates/components/search/query_builder/search_option_value.html.twig
 #: src/Glpi/Search/Input/QueryBuilder.php:367
 msgid "Criteria value"
-msgstr ""
+msgstr "Auswahlkriterium"
 
 #: templates/components/search/query_builder/main.html.twig
 msgid "Toggle additional default filters"
@@ -2001,7 +2001,7 @@ msgstr "Globale Regel löschen"
 #: templates/pages/admin/assetdefinition/capacities.html.twig
 #: src/Profile.php:3715
 msgid "Select/unselect all"
-msgstr "Auswählen alle/keine"
+msgstr "Alle an-/abwählen"
 
 #: templates/components/search/displaypreference_list.html.twig
 #: templates/pages/tools/find_available_reservation.html.twig
@@ -2077,7 +2077,7 @@ msgstr "Querformat PDF"
 
 #: templates/components/search/controls.html.twig
 msgid "Portrait PDF"
-msgstr ""
+msgstr "Hochformat PDF"
 
 #: templates/components/search/controls.html.twig
 #: templates/pages/assistance/planning/single_filter.html.twig
@@ -2087,7 +2087,7 @@ msgstr "CSV"
 #: templates/components/search/controls.html.twig
 #, php-format
 msgid "Spreadsheet (%s)"
-msgstr ""
+msgstr "Tabellenblatt (%s)"
 
 #: templates/components/search/controls.html.twig
 msgid "All pages"
@@ -2135,7 +2135,7 @@ msgstr[1] "Information"
 
 #: templates/components/notepad/form.html.twig
 msgid "Add a note"
-msgstr "Notiz einfügen"
+msgstr "Notiz anfügen"
 
 #: templates/components/notepad/form.html.twig
 #: templates/pages/tools/kb/article.html.twig
@@ -2166,7 +2166,7 @@ msgstr "Sichtbar in Tickets"
 #: templates/components/form/dates.html.twig
 #, php-format
 msgid "Last update on %s"
-msgstr "Letztes Update am %s"
+msgstr "Letzte Änderung am %s"
 
 #: templates/components/notepad/form.html.twig
 #: templates/components/form/buttons.html.twig
@@ -2175,7 +2175,7 @@ msgstr "Letztes Update am %s"
 #: templates/components/itilobject/timeline/form_task_main_form.html.twig
 #: templates/components/itilobject/footer.html.twig
 msgid "Confirm the final deletion?"
-msgstr "Löschen bestätigen?"
+msgstr "Endgültiges Löschen bestätigen?"
 
 #: templates/components/notepad/form.html.twig
 msgid "Edit a note"
@@ -2195,7 +2195,7 @@ msgstr "Aktualisieren"
 #: templates/components/plugin_update_modal.html.twig
 msgctxt "button"
 msgid "Update?"
-msgstr ""
+msgstr "Aktualisieren?"
 
 #: templates/components/plugin_update_modal.html.twig
 #, php-format
@@ -2205,11 +2205,11 @@ msgstr "Neues Update für Plugin %s verfügbar."
 #: templates/components/plugin_update_modal.html.twig
 #, php-format
 msgid "Update to version %s?"
-msgstr ""
+msgstr "Update auf Version %s?"
 
 #: templates/components/datatable.html.twig src/Lock.php:1061
 msgid "Check all"
-msgstr "alles markieren"
+msgstr "Alles auswählen"
 
 #: templates/components/datatable.html.twig
 #: templates/components/logs.html.twig src/Glpi/Search/CriteriaFilter.php:55
@@ -2267,12 +2267,12 @@ msgstr "Ja"
 #: templates/components/datatable.html.twig
 #: templates/components/logs.html.twig
 msgid "Entries to show:"
-msgstr ""
+msgstr "Anzuzeigende Einträge:"
 
 #: templates/components/user/password_security_checks.html.twig
 #, php-format
 msgid "Minimum length: %s"
-msgstr ""
+msgstr "Mindestlänge: %s"
 
 #: templates/components/user/password_security_checks.html.twig
 msgid "Digit"
@@ -20185,7 +20185,7 @@ msgstr "Element nicht gefunden"
 
 #: src/Glpi/Api/API.php:2219
 msgid "Email notifications are disabled"
-msgstr "E-Mail Meldung ist desaktiviert"
+msgstr "E-Mail Meldung ist deaktiviert"
 
 #: src/Glpi/Api/API.php:2223
 msgid "email parameter missing"
@@ -31447,7 +31447,7 @@ msgstr "Antwortvorlage"
 
 #: src/PendingReason.php:174
 msgid "Automatic follow-up disabled"
-msgstr "Automatische Verfolgung desaktiviert"
+msgstr "Automatische Verfolgung deaktiviert"
 
 #: src/PendingReason.php:204
 msgid "Every day"
